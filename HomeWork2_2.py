@@ -5,4 +5,3 @@ print(HW_number_mir)
 
 #HW_number =98765
 #print(list(reversed(HW_number)))
-
