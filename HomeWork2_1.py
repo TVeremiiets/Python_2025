@@ -1,5 +1,4 @@
 #from unicodedata import digit
-
 #home_field = int(input("7498"))
 #home_field2=1000
 #digit=home_field
