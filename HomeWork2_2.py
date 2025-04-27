@@ -5,6 +5,5 @@ HW_number_mir =int(str(HW_number)[::-1])
 print(HW_number)
 print(HW_number_mir)
 
-#variant2
-HW_number =98765
-print(list(reversed(HW_number)))
+#HW_number =98765
+#print(list(reversed(HW_number)))
