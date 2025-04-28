@@ -10,8 +10,7 @@ while operation != 0:
     second_num = int(3)
 
     if operation == 0:
-        break
-        # print('Please select operation')
+        break        # print('Please select operation')
     if operation == 1:
         print(first_num + second_num)
     elif operation == 2:
