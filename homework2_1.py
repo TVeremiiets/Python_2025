@@ -1,9 +1,11 @@
-#from unicodedata import digit
-#home_field = int(input("7498"))
-#home_field2=1000
-#digit=home_field
-#left,right=divmod(digit,home_field2)
-#print(left)
+from unicodedata import digit
+home_field = int(input("7498"))
+home_field2=1000
+digit=home_field
+left,right=divmod(digit,home_field2)
+print(left)
+
+
 
 home_field=int(7498)
 res1=home_field//1000
