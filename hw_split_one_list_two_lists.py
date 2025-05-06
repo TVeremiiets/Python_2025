@@ -23,7 +23,6 @@ print( res_list )
 #empty list
 empty_list=[]
 empty_list2=empty_list
-
 print(empty_list,",", empty_list2)
 
 
