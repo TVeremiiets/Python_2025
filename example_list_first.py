@@ -1,9 +1,9 @@
 my_list = [12, 3, 4, 10]
-print(f'{my_list} => {my_list[-1:]+my_list[:-1]}')
+my_list = []
+print(f"{my_list} => {my_list[-1:]+my_list[:-1]}")
 
-
-for x in input(my_list).split():
-    my_list.append(int(x))
-    my_list.insert(3, my_list.pop())
+# variant2
+if my_list:
+    last_element = my_list.pop()
+    my_list.insert(0, last_element)
 print(my_list)
-
