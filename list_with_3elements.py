@@ -18,6 +18,6 @@ if full_list:
 
 rand_list = [randint(3, 10) for num in range(10)]
 print(rand_list)
-#print(rand_list[::3])
+# print(rand_list[::3])
 
 # print(random.choice(full_list))
