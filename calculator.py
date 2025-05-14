@@ -20,7 +20,8 @@ while calc != 'no':
     elif (oper == "/"):
         if s_num == 0:
             print('You cant divide by zero!')
-        else:
+            break
+    else:
             res = f_num / s_num
 
 
