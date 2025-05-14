@@ -22,7 +22,7 @@ while calc != 'no':
             print('You cant divide by zero!')
             break
     else:
-            res = f_num / s_num
+            res = ()
 
 
     print("\n{} {} {} = {}".format(f_num, oper, s_num, res))
